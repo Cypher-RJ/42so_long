@@ -18,7 +18,7 @@ static void	put_exit(t_win *game, int x, int y)
 	{
 		mlx_destroy_image(game->mlx, game->img_exit);
 		game->img_exit = mlx_xpm_file_to_image(game->mlx, \
-			"textures/Chest_open.xpm", &game->img_width, &game->img_height);
+			"textures/Barrel_Full.xpm", &game->img_width, &game->img_height);
 	}
 	put_img(game, game->img_exit, x, y);
 }

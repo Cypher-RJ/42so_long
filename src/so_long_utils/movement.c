@@ -5,16 +5,16 @@ static void	player_img_update(char key, t_win *game)
 	mlx_destroy_image(game->mlx, game->img_player);
 	if (key == 'w')
 		game->img_player = mlx_xpm_file_to_image(game->mlx, \
-			"textures/Steve_B.xpm", &game->img_width, &game->img_height);
+			"textures/B_Player.xpm", &game->img_width, &game->img_height);
 	else if (key == 's')
 		game->img_player = mlx_xpm_file_to_image(game->mlx, \
-			"textures/Steve_F.xpm", &game->img_width, &game->img_height);
+			"textures/F_Player.xpm", &game->img_width, &game->img_height);
 	else if (key == 'a')
 		game->img_player = mlx_xpm_file_to_image(game->mlx, \
-			"textures/Steve_L.xpm", &game->img_width, &game->img_height);
+			"textures/L_Player.xpm", &game->img_width, &game->img_height);
 	else if (key == 'd')
 		game->img_player = mlx_xpm_file_to_image(game->mlx, \
-			"textures/Steve_R.xpm", &game->img_width, &game->img_height);
+			"textures/R_Player.xpm", &game->img_width, &game->img_height);
 }
 
 void	w_key(t_win *game)

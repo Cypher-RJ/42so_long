@@ -3,15 +3,15 @@
 static void	init_img(t_win *game)
 {
 	game->img_floor = mlx_xpm_file_to_image(game->mlx, \
-		"textures/Grass.xpm", &game->img_width, &game->img_height);
+		"textures/Floor.xpm", &game->img_width, &game->img_height);
 	game->img_wall = mlx_xpm_file_to_image(game->mlx, \
-		"textures/Bedrock.xpm", &game->img_width, &game->img_height);
+		"textures/Wall.xpm", &game->img_width, &game->img_height);
 	game->img_player = mlx_xpm_file_to_image(game->mlx, \
-		"textures/Steve_F.xpm", &game->img_width, &game->img_height);
+		"textures/F_Player.xpm", &game->img_width, &game->img_height);
 	game->img_colect = mlx_xpm_file_to_image(game->mlx, \
-		"textures/Diamond.xpm", &game->img_width, &game->img_height);
+		"textures/Coin.xpm", &game->img_width, &game->img_height);
 	game->img_exit = mlx_xpm_file_to_image(game->mlx, \
-		"textures/Chest_closed.xpm", &game->img_width, &game->img_height);
+		"textures/Barrel_Empty.xpm", &game->img_width, &game->img_height);
 }
 
 void	get_win_size(t_win *game)

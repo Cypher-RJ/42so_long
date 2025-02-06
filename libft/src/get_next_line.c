@@ -6,7 +6,7 @@
 /*   By: rcesar-d <rcesar-d@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/16 14:55:08 by rcesar-d          #+#    #+#             */
-/*   Updated: 2024/10/14 15:42:57 by rcesar-d         ###   ########.fr       */
+/*   Updated: 2025/02/05 10:20:29 by rcesar-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,7 +35,7 @@ char	*get_next_line(int fd)
 			}
 			file_line[i] = '\0';
 		}
-		final_line = ft_strjoin(final_line, file_line);
+		final_line = gnl_strjoin(final_line, file_line);
 		read_clear(final_line, file_line);
 	}
 	return (final_line);

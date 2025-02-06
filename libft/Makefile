@@ -6,7 +6,7 @@
 #    By: rcesar-d <rcesar-d@student.42lisboa.com    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/04/15 20:18:14 by rcesar-d          #+#    #+#              #
-#    Updated: 2024/10/18 11:41:45 by rcesar-d         ###   ########.fr        #
+#    Updated: 2025/02/05 10:19:07 by rcesar-d         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -25,7 +25,7 @@ CFILES = $(addprefix $(SRC), ft_atoi.c ft_bzero.c ft_isalnum.c ft_isalpha.c ft_i
 		ft_lstnew.c ft_lstadd_front.c ft_lstsize.c ft_lstlast.c ft_lstadd_back.c \
 		ft_lstdelone.c ft_lstclear.c ft_lstiter.c ft_lstmap.c \
 		ft_printf.c ft_printchar.c ft_printstr.c ft_printnbr.c ft_printnbrhex.c \
-		ft_printptr.c ft_strcmp.c)
+		ft_printptr.c ft_strcmp.c get_next_line.c get_next_line_utils.c)
 
 $(OBJ)%.o:	$(SRC)%.c
 	@mkdir -p $(@D)

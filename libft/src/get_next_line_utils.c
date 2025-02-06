@@ -6,7 +6,7 @@
 /*   By: rcesar-d <rcesar-d@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/21 12:29:55 by rcesar-d          #+#    #+#             */
-/*   Updated: 2024/10/16 15:28:44 by rcesar-d         ###   ########.fr       */
+/*   Updated: 2025/02/05 10:21:28 by rcesar-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,8 +33,8 @@ char	*gnl_strjoin(char *s1, char *s2)
 	int		j;
 	char	*str;
 
-	lens1 = ft_strlen(s1);
-	lens2 = ft_strlen(s2);
+	lens1 = gnl_strlen(s1);
+	lens2 = gnl_strlen(s2);
 	str = (char *)malloc(lens1 + lens2 + 1);
 	if (str == NULL)
 		return (NULL);
